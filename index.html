@@ -10,25 +10,29 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <img src="./images/logo.png" width="70px" height="20px" alt="logo">
-            <nav class="menu" aria-label="main-navigation">
-                <ul>
-                    <li>
-                        <a class="is-active" href="#main">Hola</a>
-                    </li>
-                    <li>
-                        <a href="#project">Proyectos</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Hablemos</a>
-                    </li>
-                </ul>
-            </nav>
-            <button class="button">Currículum</button> 
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-content">
+                <img src="./images/logo.png" width="70px" height="20px" alt="logo">
+                <nav class="menu" aria-label="main-navigation">
+                    <ul>
+                        <li>
+                            <a class="is-active" href="#main">Hola</a>
+                        </li>
+                        <li>
+                            <a href="#project">Proyectos</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Hablemos</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="button">Currículum</button> 
+            </div>
+        </div>
         </header>
-        
+        </div>
+    <div class="wrapper">        
         <section aria-label="main" class="hero" id="main">
             <div class="hero-image">
                 <img src="./images/jaume.png" width="338px" height="330px" alt="Fotografía"> 
@@ -51,11 +55,11 @@
             </div>
         </section>
 
-        <div class="testimony">
-            <div class="testimony-image">
+        <div class="project" id="project">
+            <div class="project-image">
                 <img src="./images/leonidas-esteban.png" alt="">
             </div>
-            <div class="testimony-description">
+            <div class="project-description">
                 <a class="title" target="_blank" href="https://platzi.com">Platzi</a>
                 <p>Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End</p>
                 <a href="#" class="button is-secondary">Ver Código</a>
@@ -63,11 +67,11 @@
             </div>
         </div>
 
-        <div class="testimony">
-            <div class="testimony-image">
+        <div class="project">
+            <div class="project-image">
                 <img src="./images/marvol.png" alt="">
             </div>
-            <div class="testimony-description">
+            <div class="project-description">
                 <a class="title" target="_blank" href="https://platzi.com">Platzi</a>
                 <p>Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End</p>
                 <a href="#" class="button is-secondary">Ver Código</a>
@@ -75,11 +79,11 @@
             </div>
         </div>
 
-        <div class="testimony">
-            <div class="testimony-image">
+        <div class="project">
+            <div class="project-image">
                 <img src="./images/netnet.png" alt="">
             </div>
-            <div class="testimony-description">
+            <div class="project-description">
                 <a class="title" target="_blank" href="https://platzi.com">Platzi</a>
                 <p>Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End</p>
                 <a href="#" class="button is-secondary">Ver Código</a>
@@ -100,7 +104,7 @@
             <textarea name="message" id="form-message" cols="30" rows="7" placeholder="Mensaje"></textarea>
             <button class="button" type="submit">enviar mensaje</button>
         </form>
-        <footer class="footer">
+        <footer class="footer" id="contact">
             <div class="footer-logo">
                 <img src="./images/logo.png" width="70px" height="20px" alt="logo">
             </div>
